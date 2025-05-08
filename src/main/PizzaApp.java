@@ -76,6 +76,11 @@ public class PizzaApp extends javax.swing.JFrame {
         jMenuItem9 = new javax.swing.JMenuItem();
         jMenuItem10 = new javax.swing.JMenuItem();
         jMenuItem11 = new javax.swing.JMenuItem();
+        jMenu5 = new javax.swing.JMenu();
+        jMenuItem12 = new javax.swing.JMenuItem();
+        jMenuItem16 = new javax.swing.JMenuItem();
+        jSeparator2 = new javax.swing.JPopupMenu.Separator();
+        jMenuItem17 = new javax.swing.JMenuItem();
 
         jRadioButton6.setText("jRadioButton6");
 
@@ -327,6 +332,20 @@ public class PizzaApp extends javax.swing.JFrame {
         jMenuItem11.setText("jMenuItem4");
         jMenu2.add(jMenuItem11);
 
+        jMenu5.setText("jMenu5");
+
+        jMenuItem12.setText("jMenuItem12");
+        jMenu5.add(jMenuItem12);
+
+        jMenuItem16.setText("jMenuItem12");
+        jMenu5.add(jMenuItem16);
+        jMenu5.add(jSeparator2);
+
+        jMenuItem17.setText("jMenuItem12");
+        jMenu5.add(jMenuItem17);
+
+        jMenu2.add(jMenu5);
+
         jMenuBar1.add(jMenu2);
 
         setJMenuBar(jMenuBar1);
@@ -509,13 +528,17 @@ public class PizzaApp extends javax.swing.JFrame {
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenu jMenu3;
     private javax.swing.JMenu jMenu4;
+    private javax.swing.JMenu jMenu5;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JMenuItem jMenuItem10;
     private javax.swing.JMenuItem jMenuItem11;
+    private javax.swing.JMenuItem jMenuItem12;
     private javax.swing.JMenuItem jMenuItem13;
     private javax.swing.JMenuItem jMenuItem14;
     private javax.swing.JMenuItem jMenuItem15;
+    private javax.swing.JMenuItem jMenuItem16;
+    private javax.swing.JMenuItem jMenuItem17;
     private javax.swing.JMenuItem jMenuItem2;
     private javax.swing.JMenuItem jMenuItem3;
     private javax.swing.JMenuItem jMenuItem4;
@@ -537,6 +560,7 @@ public class PizzaApp extends javax.swing.JFrame {
     private javax.swing.JRadioButton jRadioButton6;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JPopupMenu.Separator jSeparator1;
+    private javax.swing.JPopupMenu.Separator jSeparator2;
     private javax.swing.JSpinner jSpinner1;
     private javax.swing.JTextArea jTextArea1;
     // End of variables declaration//GEN-END:variables
